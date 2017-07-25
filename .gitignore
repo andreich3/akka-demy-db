@@ -1,0 +1,21 @@
+# IDEA Files
+/.idea_modules
+/.project
+/.idea/*
+# keep code style in git
+!/.idea/codeStyleSettings.xml
+
+# SBT Build Files
+/out
+target
+
+# Runtime Generated files
+logs
+/RUNNING_PID
+/data
+.DS_Store
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
